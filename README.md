@@ -6,7 +6,7 @@ This is a simple web-based implementation of the classic Tic Tac Toe game. Playe
 
 ## Demo
 
-You can play the Tic Tac Toe game by visiting the [live demo]().
+You can play the Tic Tac Toe game by visiting the [live demo](https://sparkly-treacle-d19f8d.netlify.app).
 
 
 ## Features
