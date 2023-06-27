@@ -1,0 +1,57 @@
+.game-board
+{
+	width: 400px;
+	height: 400px;
+	margin: 20px auto;
+  margin-bottom: 30px;
+  background-color: white;
+  color: blue;
+  box-shadow: 2px 3px 7px 9px black;
+  border-radius: 10px;
+	display: grid;
+	grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+.box
+{
+  border: 2px solid black;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.result{
+  justify-content: center;
+  margin-left:45%;
+}
+.restart{
+  padding:10px 35px;
+  font-size: 20px;
+  background:black;
+  cursor: pointer;
+  color: white;
+  border: none;
+  outline: none;
+}
+.restart:hover{
+  background:skyblue;
+}
+.win{
+  font-size: 32px;
+  font-weight: 800;
+}
+.playerX{
+   color:blue;
+   font-family: Helvetica;
+  font-weight: bold;
+  font-size: 4em;
+}
+.playerY{
+  color: green;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 4em;
+}
+.winning-cell {
+  background-color: yellow; /* Adjust the styling as desired */
+}
